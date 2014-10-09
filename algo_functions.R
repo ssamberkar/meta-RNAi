@@ -4,9 +4,9 @@
 #  Author: Sandeep Amberkar                               #
 ##########################################################
 require(GOSemSim)
-library(gdata)
-library(igraph)
-library(org.Hs.eg.db)
+require(gdata)
+require(igraph)
+require(org.Hs.eg.db)
 #Map screen hits onto clusters
 map_hits <- function(data1,hits,background)
 {
